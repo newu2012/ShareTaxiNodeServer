@@ -1,0 +1,13 @@
+# Credentials
+.env*
+!.env-example
+ServiceAccountKey.json
+
+gcp-service-account.json
+!gcp-service-account-example.json
+
+node_modules
+.idea
+.DS_STORE
+yarn.lock
+package-lock.json
