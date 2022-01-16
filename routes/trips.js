@@ -6,7 +6,6 @@ const {
     updateTrip,
     deleteTrip,
 } = require('../controllers/tripController');
-
 const router = express.Router();
 
 router.post('/', addTrip);
